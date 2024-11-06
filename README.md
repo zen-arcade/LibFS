@@ -1,4 +1,8 @@
-# LibFS README
+# LibFS 
+
+LibFS is a simplified Unix filesystem emulator based on the Unix source code level six with help from the 6th edition of John Lions' book.
+
+TODO add inode structures etc
 
 ### Usage
 Run mklibfs to create the dsk-libfs file, simulating a standard Unix partition (without boot block).
@@ -11,6 +15,7 @@ Initialize with init_libfs() and call close_libfs() when done.
 
 
 
-Sorbonne Université
-Ilyes Mortadha KADA BENABDALLAH - 21305574
-Encadré par Pierre SENS
+
+
+Projet SAR - Sorbonne Université
+Encadré par Pierre SENS @ LIP6
